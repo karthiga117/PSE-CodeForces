@@ -20,3 +20,7 @@ https://codeforces.com/problemset/problem/71/A
 **Rating:** 800  
 **Tags:** Math, Brute Force  
 **Language:** Python 3
+**Solution:**
+Read n words and check the length of each word.
+If the word has more than 10 characters, abbreviate it as first letter + number of middle characters + last letter.
+Otherwise, print the word unchanged.

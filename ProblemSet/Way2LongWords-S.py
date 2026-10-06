@@ -1,15 +1,20 @@
-def solve():
-    word_count = int(input())
-    abbreviated_words = []
+def FindLongWord():
+    n = int(input(""))
+   
+    user_word = []
+    for i in range(n):
+        word = input()
+        user_word.append(word)
 
-    for _ in range(word_count):
-        word = input().strip()
-        if len(word) > 10:
-            word = f"{word[0]}{len(word) - 2}{word[-1]}"
-        abbreviated_words.append(word)
+    for name in user_word:
+        textLen = len(name)
 
-    print("\n".join(abbreviated_words))
+        if(textLen>10):
+            remainingletter = textLen - 2
+            print(f"{name[0]}{remainingletter}{name[textLen-1]}")
+        else : print(name)
+
 
 
 if __name__ == "__main__":
-    solve()
+    FindLongWord()
