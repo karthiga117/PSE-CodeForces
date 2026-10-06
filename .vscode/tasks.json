@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Way2LongWords solution",
+			"type": "shell",
+			"command": "C:\\Users\\Karthi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+			"args": [
+				"ProblemSet\\Way2LongWords-S.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}
